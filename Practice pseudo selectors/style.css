@@ -1,0 +1,22 @@
+main {
+    width: 400px;
+}
+
+article {
+    border-left: solid black;
+    border-right: solid black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+p {
+    border-bottom: solid black;
+    padding: 30px 20px;
+    margin: 0;
+}
+
+p:hover {
+    background: orangered;
+}
