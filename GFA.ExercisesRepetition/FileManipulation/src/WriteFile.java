@@ -9,7 +9,7 @@ public class WriteFile {
     public static void main(String[] args) {
         List<String> content = new ArrayList<>();
         content.add("First line of my file");
-        Path filePath = Paths.get("Files/new-file.txt");
+        Path filePath = Paths.get("src/Files/new-file.txt");
 
         try { // Required by Files.write(filePath, content)
             // Creates a new file if not exists and overwrites it's content
